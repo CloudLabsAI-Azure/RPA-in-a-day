@@ -260,16 +260,139 @@ VM to make these 2 VMs to form a cluster.
 
 1. Start the **VM2-{Suffix}**, if it's in a deallocated state from the **resources** tab of the environment.
 
+   ![](images/start-vm2.png)
+   
+1. From the **VM-{Suffix}**, In the search bar, **Search** for **RDP** and **select** the **Remote Connection Desktop** app.
+   
+   ![](images/copypasteissue-3.png)
+
+   > **Note** :  You will RDP into the VM1 from the JumpVM(integrated VM) provided in the environment.   
+
+1. From the **Environment details** tab, Copy the **VM2 DNS Name**.
+
+   ![](images/vm2-dns-info.png)
+   
+1. Paste the **VM2 DNS Name** in the **Computer** field and click on **Connect**.
+   
+   ![](images/rdp-vm2.png)
+
+1. Click on **More choices**.
+
+   ![](images/vm1-more-choices.png)
+   
+1. Now, click on the **Use a different account**. Now, enter the VM1 **username** and **password** which you have copied from **Environment details** page and click on **Ok** button. 
+   Please add **dot** and **back-slash** “.\” before the username.
+
+   ![](images/select-different-vm1.png)
+
+1. Next, click on the **Yes** button to accept the certificate and add in trusted certificates.
+
+   ![](images/logib-vm2-2.png)
+   
+1. Now from the **VM2-{Suffix}**, In the **Search bar**, Search for **On-premise data gateway** and **open** the app.
+
+   ![](images/1.6.png)
+  
+1. Sign into the **gateway** using the same account that you created in lab 1 (the one you use to sign in Power Automate portal).
+
+   ![](images/on-prem-gateway-1.png) 
+   
+1. Select **Register a new gateway on this computer**, then click **Next**.
+
+   ![](images/on-prem-gateway-2.png)
+   
+1. Make sure you **check** the **Add to an existing gateway cluster** box.
+   
+   ![](images/add-exisiting-cluster.png)
+   
+1. In the **Available gateway cluster** dropdown menu, please select the gateway name that you have created on your first **VM1-{suffix}**. By selecting this, the new gateway you are configuring now will be added into the same cluster as the gateway from the **VM1-{suffix}**.
+
+   ![](images/test-on-vm-gateway.png)
+   
+1. Name the gateway as **Test on VM2 gateway**. Enter your **Recovery key** that you used 
+when you set up the **gateway on the 1st VM**. Then click **Configure**
+
+   > **Note** : To add new gateway instances to this cluster, this primary gateway instance needs to 
+be online.
+
+   ![](images/test-on-vm-gateway-add-key.png)
+   
+1. Now your 2nd gateway is configured into the same cluster and ready to be used, now you 
+can click **Close**.
+
+   ![](images/gateway-configured-vm2.png)
+   
+1. Now on your own computer, not the VMs, navigate to ``powerautomate.microsoft.com``
+Sign in using the credentials given in the lab environment and go to **Data**
+
+
+   ![](images/data-vm2.png)
+
+1. Click **Gateways**
+
+   ![](images/gateways-vm2.png)
+
+1. Select **Test on VM gateway**.
+
+   ![](images/gateways-vm2-new.png)
+   
+   > **Note** : you can see there are 2 Gateways in this cluster now. Select Yes on “Run on all 
+gateways in the cluster”.
+
+   > **Note** : When the run on all gateways is enabled, the cluster will perform load balancing
+during runtime, which means all queued tasks will be distribute to the next VM that 
+becomes available. Once the task is assigned, it will not be taken back to the queue
+anymore.
+
+   > **Note** : the cluster will use the first VM as the name of the cluster.
+
+
+   ![](images/run-on-all-cluster.png)
+   
+1. Ensure your both VMs are ready for unattended run. E.g. make sure VMs are running, 
+gateways on VMs are online, write down the highest invoice ID numbers on each VM, 
+logged off the VMs using logoff command.
+
+1. Now send yourself **four** emails with different **attachments** (you can find those files under 
+the Unattended lab folder under lab data packages. Each of these 4 emails should have 
+**“unattended”** in the email titles.
+
+1. Monitor 4 flows are kicked off in parallel. Approve any **Teams requests** and monitor all 
+the run results.
+
+1. After all runs completed, log in back to both **VMs** to open the **Contoso Invoicing app** and 
+check the newly added entries with the new invoice IDs. In most of the cases, 2 new 
+entries should be added to each VM. Some cases due to network delay, the results could 
+be different.
 
 
 
-
-
-
-
-
-
-
-
-
-
+Information in this document, including URL and other Internet Web site references,
+is subject to change without notice. Unless otherwise noted, the example companies, 
+organizations, products, domain names, e-mail addresses, logos, people, places, and events 
+depicted herein are fictitious, and no association with any real company, organization, product, 
+domain name, e-mail address, logo, person, place or event is intended or should be inferred. 
+Complying with all applicable copyright laws is the responsibility of the user. Without limiting 
+the rights under copyright, no part of this document may be reproduced, stored in or 
+introduced into a retrieval system, or transmitted in any form or by any means (electronic, 
+mechanical, photocopying, recording, or otherwise), or for any purpose, without the express 
+written permission of Microsoft Corporation.
+Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual 
+property rights covering subject matter in this document. Except as expressly provided in any 
+written license agreement from Microsoft, the furnishing of this document does not give you 
+any license to these patents, trademarks, copyrights, or other intellectual property.
+The names of manufacturers, products, or URLs are provided for informational purposes only 
+and Microsoft makes no representations or warranties, either expressed, implied, or statutory, 
+regarding these manufacturers or the use of the products with any Microsoft technologies.
+The inclusion of a manufacturer or product does not imply endorsement of Microsoft of the 
+manufacturer or product. Links may be provided to third party sites. Such sites are not under the 
+control of Microsoft and Microsoft is not responsible for the contents of any linked site or any 
+link contained in a linked site, or any changes or updates to such sites. Microsoft is not 
+responsible for webcasting or any other form of transmission received from any linked site. 
+Microsoft is providing these links to you only as a convenience, and the inclusion of any link 
+does not imply endorsement of Microsoft of the site or the products contained therein.
+© 2020 Microsoft Corporation. All rights reserved.
+Microsoft and the trademarks listed at 
+https://www.microsoft.com/enus/legal/intellectualproperty/Trademarks/Usage/General.aspx
+are trademarks of the Microsoft group of companies. All other trademarks are property of their 
+respective owners.
