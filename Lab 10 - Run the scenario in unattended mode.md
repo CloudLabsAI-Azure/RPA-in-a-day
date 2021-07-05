@@ -19,7 +19,7 @@
 
    ![](images/imp4.png)
    
-1. If your remote VM has no **Excel** installed, you should disable both subflows from your **desktop flow** before you run them on the **remote VMs**.
+1. If your remote VM has no **Excel** installed, you should disable **both** subflows from your **desktop flow** before you run them on the **remote VMs**.
 
    ![](images/remove-excel.png)
 
