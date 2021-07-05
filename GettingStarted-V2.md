@@ -120,5 +120,5 @@ Once this is completed you can proceed with the lab using the lab guide. The res
 
 ### Note : Please note that you will not be able to perform lab 10 with the lab manual provided inside the VM. Please Follow the link given below to find the lab guide for Lab 10 – Run the scenario in unattended mode. 
 
- ``https://github.com/junnhssn/RPA-in-a-day/blob/main/Lab%2010%20-%20Run%20the%20scenario%20in%20unattended%20mode.md``
+ ``https://github.com/CloudLabsAI-Azure/RPA-in-a-day/blob/main/Lab%2010%20-%20Run%20the%20scenario%20in%20unattended%20mode.md``
 
