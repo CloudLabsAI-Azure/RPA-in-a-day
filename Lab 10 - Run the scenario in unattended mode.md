@@ -19,11 +19,11 @@
 
    ![](images/imp4.png)
    
-3. If your remote VM has no **Excel** installed, you should disable both subflows from your **desktop flow** before you run them on the **remote VMs**.
+1. If your remote VM has no **Excel** installed, you should disable **both** subflows from your **desktop flow** before you run them on the **remote VMs**.
 
    ![](images/remove-excel.png)
 
-4. Start the **VM1-{Suffix}**, if it's in a deallocated state from the **resources** tab of the environment.
+1. Start the **VM1-{Suffix}**, if it's in a deallocated state from the **resources** tab of the environment.
    
    ![](images/resources-vms.png)
    
@@ -104,11 +104,11 @@
    
 1. Select **Test on VM gateway** in the Gateway name field, enter username (e.g. VM1-Suffix\demouser) and password, Which can be found under the environment details page. Then click on **Create**
 
-   ![](images/enter-an-invoice.png)
+   ![](images/enter-gateway-name.png)
    
 1. Select **Enter an invoice** Desktop flow.
 
-   ![](images/enter-gateway-name.png)
+   ![](images/enter-an-invoice.png)
    
 1. Fill the box with these values:
    - **Run Mode**: Unattended -Runs in the background without signing in
