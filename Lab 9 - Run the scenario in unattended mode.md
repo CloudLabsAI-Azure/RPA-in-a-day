@@ -1,4 +1,4 @@
-# Lab 10 – Run the scenario in unattended mode
+# Lab 9 – Run the scenario in unattended mode
 
 ## Exercise 1: Basic Desktop Flow in Unattended mode:
 
@@ -209,7 +209,7 @@
    ![](images/if-yes-run-a-flow-built-with.png)
    
 1. Select the ellipsis icon (…) for **Run a flow built with Power Automate Desktop** action 
-and select the correct unattended connection that you created in exercise 1 of lab 10.
+and select the correct unattended connection that you created in exercise 1 of lab 9.
 
 1. Select **Unattended – Runs in the background without signing in** in **Run Mode** field.
 
@@ -255,7 +255,7 @@ the ID increased compared to the number you write down earlier
 
 ## Exercise 3: Run unattended on a cluster of 2 VMs
 
-1. We already have 1 VM used in exercise 1 and 2 in this lab 10. Now we will add one more 
+1. We already have 1 VM used in exercise 1 and 2 in this lab 9. Now we will add one more 
 VM to make these 2 VMs to form a cluster.
 
 1. Start the **VM2-{Suffix}**, if it's in a deallocated state from the **resources** tab of the environment.

@@ -120,11 +120,11 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
    ![](images/invoice-4.png)
    
-Once this is completed you can proceed with the lab using the lab guide. The rest of the exercises are available in the lab VM at ***C:\RPAIAD\RPAinADay-Student\lab manuals in pdf***, you can start from **Lab 2 How to generate insights to optimize and automate your process using process advisor**.
+Once this is completed you can proceed with the lab using the lab guide. The rest of the exercises are available in the lab VM at ***C:\RPAIAD\RPAinADay-Student\lab manuals in pdf***, you can start from **Lab 2 Create your first Power Automate Desktop flow**.
 
-**Note** : Please note that you will not be able to perform lab 10 with the lab manual provided inside the VM. Please follow the link given below to find the lab guide for ***Lab 10 – Run the scenario in unattended mode***.
+**Note** : Please note that you will not be able to perform lab 09 with the lab manual provided inside the VM. Please follow the link given below to find the lab guide for ***Lab 09 – Run the scenario in unattended mode***.
 
  ```
- https://github.com/CloudLabsAI-Azure/RPA-in-a-day/blob/main/Lab%2010%20-%20Run%20the%20scenario%20in%20unattended%20mode.md
+ https://github.com/CloudLabsAI-Azure/RPA-in-a-day/blob/main/Lab%209%20-%20Run%20the%20scenario%20in%20unattended%20mode.md
  ```
 
