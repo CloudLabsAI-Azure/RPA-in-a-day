@@ -54,7 +54,7 @@
 
    ![](images/logib-vm2-2.png)
    
-1. Now from the **VM1-{Suffix}**, In the **Search bar**, Search for **On-premise data gateway** and **open** the app.
+1. Now from the **VM1-{Suffix}**, select the **On-premise data gateway** and **open** the app.
  
    ![](images/1.6.png)
    
@@ -121,7 +121,7 @@
    ![](images/fill-the-run-a-flow.png)
 
 1. Prepare to test unattended flow. Make sure your VM is in good state. Log in into the **VM1-{Suffix}** and Review the steps below: 
-   - search **gateway** in VM windows search bar. Select **On-premises data gateway**.
+   - Select **On-premises data gateway**.
    
    ![](images/1.6.png)
    
@@ -289,7 +289,7 @@ VM to make these 2 VMs to form a cluster.
 
    ![](images/logib-vm2-2.png)
    
-1. Now from the **VM2-{Suffix}**, In the **Search bar**, Search for **On-premise data gateway** and **open** the app.
+1. Now from the **VM2-{Suffix}**, select the **On-premise data gateway** and **open** the app.
 
    ![](images/1.6.png)
   
