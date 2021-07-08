@@ -73,7 +73,11 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
    ![](images/power-automate-signin.png)
 
-1. In the search bar of the VM desktop, search for **on-premises data gateway** and provide the username from Environment details tab and click on **Sign in**. Provide the credentials from Environment details tab if required.
+1. From the VM desktop, select **on-premises data gateway**.
+
+   ![](images/1.6.png)
+
+1. Provide the username from Environment details tab and click on **Sign in**. Provide the credentials from Environment details tab if required.
 
    ![](images/data-gateway-signin.png)
 
