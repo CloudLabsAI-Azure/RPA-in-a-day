@@ -53,6 +53,8 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
    ![](images/add-database.png)
 
+   > ***Note*** : The database might already be created in your environment. Please skip this step, If you do not see the option **+ Add database**. 
+
 5. Specify values in the *Create a database for this environment* dialog box. Use these values:
    
    * Currency: USD
