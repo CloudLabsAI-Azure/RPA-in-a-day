@@ -53,7 +53,7 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
    ![](images/add-database.png)
 
-   > ***Note*** : The database might already be created in your environment. Please skip this step, If you do not see the option **+ Add database**. 
+   > **Note** : The database might already be created in your environment. Please skip this step, If you do not see the option **+ Add database**. 
 
 5. Specify values in the *Create a database for this environment* dialog box. Use these values:
    
@@ -64,7 +64,7 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
    ![](images/database.png)
 
-   > ***Note*** : creating a database may take up to one minute. Your environment will be ready after the database is provisioned.
+   > **Note** : Creating a database may take up to one minute. Your environment will be ready after the database is provisioned.
 
 ### Activate Excel desktop app
 
@@ -75,16 +75,20 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 2. Select **Change account**.
 
    ![](images/change-acc-excel.png)
+  
+> **Note** : You might not be asked to change accounts. In that case select **sign in** from the pop-up.
+
+   ![](images/direct-sign-in.png)
 
 3. Copy the **login credentials** from the **environment details page**.
 
    ![](images/credentials.png)
 
-4. Enter the **username** you copied in previous step.
+4. Enter the **username** you copied in previous step and select **Next**.
 
    ![](images/username-excel.png)
 
-5. Enter the **password**.
+5. Enter the **password** and select **Sign in**.
 
    ![](images/password-excel.png)
 
@@ -124,7 +128,7 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
 6. It is recommended to name your gateway as **Your computer name gateway**. Create a **recovery key**, then click **Configure**.
    
-   > ***Note*** : the gateway region must match the region of the Power Automate environment that being used in this lab. (The environment that you created earlier, or the one your instructor asks you to use for this class. Check with your instructor if you are not sure which region the gateway should match to. By default, the gateway installer will automatically configure to use the same region as the default environment of the tenant you are using. If you must change the Gateway to a different region, click the fine text of “Change Region” as shown in the last line in the setup page below. Note, if you already finished install the gateway, but mistakenly installed to the wrong region, to switch to a different region, you have to uninstall the gateway from “Add and remove program” and reinstall the gateway.
+   > **Note** : the gateway region must match the region of the Power Automate environment that being used in this lab. (The environment that you created earlier, or the one your instructor asks you to use for this class. Check with your instructor if you are not sure which region the gateway should match to. By default, the gateway installer will automatically configure to use the same region as the default environment of the tenant you are using. If you must change the Gateway to a different region, click the fine text of “Change Region” as shown in the last line in the setup page below. Note, if you already finished install the gateway, but mistakenly installed to the wrong region, to switch to a different region, you have to uninstall the gateway from “Add and remove program” and reinstall the gateway.
 
    ![](images/gateway-config.png)
 
@@ -136,7 +140,7 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
 
    ![](images/contoso-invoicing.png)
 
-   > ***Note*** : you will need to click “More Information” and “Run it anyway” during installation of the Contoso app if Windows Defender prompts you that the app is coming from untrusted source
+   > **Note** : you will need to click “More Information” and “Run it anyway” during installation of the Contoso app if Windows Defender prompts you that the app is coming from untrusted source
 
 9. Now we can get familiar with Contoso Invoice App so we can better prepare for the following lab recording exercises
 
