@@ -30,7 +30,7 @@
 
    ![](images/vm-restart.png)
 
-## Environemnt Setup and Overview
+## Environment Setup and Overview
 Your **odl_user** is provided with the *Office 365 E3* license and *Power Automate per user with attended RPA plan* license.
 
 ### Create a trial environment with database
@@ -65,6 +65,40 @@ Your **odl_user** is provided with the *Office 365 E3* license and *Power Automa
    ![](images/database.png)
 
    > ***Note*** : creating a database may take up to one minute. Your environment will be ready after the database is provisioned.
+
+### Activate Excel desktop app
+
+1. From the VM, in the search bar, search for **Excel** and select the **Excel Desktop app**. 
+
+   ![](images/excel-searchbar.png)
+
+2. Select **Change account**.
+
+   ![](images/change-acc-excel.png)
+
+3. Copy the **login credentials** from the **environment details page**.
+
+   ![](images/credentials.png)
+
+4. Enter the **username** you copied in previous step.
+
+   ![](images/username-excel.png)
+
+5. Enter the **password**.
+
+   ![](images/password-excel.png)
+
+6. Uncheck the **Allow my organization to manage my device** and select **"No, sign in to this app only"**.
+
+   ![](images/single-sign-in.png)
+
+7. Select **Accept**.
+
+   ![](images/accept-excel.png)
+
+8. Finally select **Close**. Now, your excel desktop app has been activated. Please close and reopen the app before using it. 
+
+   ![](images/close-privacy.png)
 
 ### Check installed required software on your Lab VM
 
